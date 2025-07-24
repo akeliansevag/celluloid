@@ -233,31 +233,31 @@ export const projects5: Project5Type[] = [
 export const service1: Service1Type[] = [
     {
         icon: "/images/service/service-icon-1.svg",
-        title: "Brand Strategy",
+        title: "Operator Hub",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
-        link: "/service-details",
+            "Gain full control of your carrier ecosystem from one powerful portal",
+        link: "/",
     },
     {
         icon: "/images/service/service-icon-2.svg",
-        title: "Web Development",
+        title: "Smart Routing",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
-        link: "/service-details",
+            "Our advanced routing engine dynamically balances quality and cost in real time.",
+        link: "/",
     },
     {
         icon: "/images/service/service-icon-3.svg",
-        title: "UI/UX Design",
+        title: "Insights & Analytics",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
-        link: "/service-details",
+            "Access detailed analytics on delivery, performance, and partner spend — all in one place.",
+        link: "/",
     },
     {
         icon: "/images/service/service-icon-4.svg",
-        title: "Digital Marketing",
+        title: "Seamless Integration",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
-        link: "/service-details",
+            "Our API-first architecture integrates effortlessly with your OSS/BSS for full automation and operational efficiency.",
+        link: "/",
     },
 ];
 
@@ -382,24 +382,24 @@ export const testimonials: TestimonialType[] = [
     {
         image: "/images/testimonial/Testimonial-1.png",
         content:
-            "Quanto team quickly understood our business requirements and were proactive and flexible with our ongoing support and developments. You can definitely trust them for complex project requirements as they are top-notch in their field and we can only recommend it.",
+            "Deliver full-scale digital banking straight to users’ smartphones — no branches needed. Our Mobile Banking Suite empowers wallets, peer-to-peer transfers, bill payments, international remittances, and micro-loans with built-in KYC, multi-currency support, and AI-powered credit scoring. Launch fast with our modular architecture and plug-and-play APIs — built to help you scale across emerging markets with zero physical footprint.",
         name: "Jenny Bennett",
         designation: "Senior Marketing Manager at Caya",
     },
-    {
-        image: "/images/testimonial/Testimonial-2.png",
-        content:
-            "Working with Quanto has been a breeze. Their understanding of our needs and ability to deliver fast, efficient solutions is truly impressive. Highly recommended for any business looking to scale.",
-        name: "Michael Thomson",
-        designation: "Product Head at NovaTech",
-    },
-    {
-        image: "/images/testimonial/Testimonial-3.png",
-        content:
-            "From start to finish, Quanto provided exceptional service. Their team is skilled, responsive, and extremely professional. I’d definitely collaborate with them again.",
-        name: "Emily Carter",
-        designation: "Co-founder at DigitalLeap",
-    },
+    // {
+    //     image: "/images/testimonial/Testimonial-2.png",
+    //     content:
+    //         "Working with Quanto has been a breeze. Their understanding of our needs and ability to deliver fast, efficient solutions is truly impressive. Highly recommended for any business looking to scale.",
+    //     name: "Michael Thomson",
+    //     designation: "Product Head at NovaTech",
+    // },
+    // {
+    //     image: "/images/testimonial/Testimonial-3.png",
+    //     content:
+    //         "From start to finish, Quanto provided exceptional service. Their team is skilled, responsive, and extremely professional. I’d definitely collaborate with them again.",
+    //     name: "Emily Carter",
+    //     designation: "Co-founder at DigitalLeap",
+    // },
 ];
 
 export const testimonials2: TestimonialType[] = [

@@ -86,8 +86,8 @@ const Hero = () => {
                                 data-delay="0.45"
                             >
                                 <h1 className="title">
-                                    Crafting your fantasies with a twist of
-                                    <span>
+                                    Smarter Networks. Faster Innovation.
+                                    <span className="opacity-0 invisible">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width={110}
@@ -108,44 +108,10 @@ const Hero = () => {
                         <div className="quanto-hero__info">
                             <WordAnim stagger="0.06">
                                 <p>
-                                    As long as your dreams revolve around
-                                    something like; being the proud owner
-                                    spectacular website.
+                                    Our next-gen platform goes beyond CPaaS, eSIM provisioning, network orchestration, and digital finance. We equip operators and enterprises to launch faster, grow smarter, and deliver seamless global experiences that set them apart.
                                 </p>
                             </WordAnim>
-                            <div>
-                                <motion.div
-                                    initial={{ opacity: 0, y: 50 }}
-                                    whileInView={{
-                                        opacity: 1,
-                                        y: 0,
-                                        transition: {
-                                            duration: 0.5,
-                                        },
-                                    }}
-                                    viewport={{ once: true }}
-                                    className="client-info"
-                                >
-                                    <div className="client-images">
-                                        {clientImages.map((item, i) => (
-                                            <Image
-                                                height={52}
-                                                width={52}
-                                                key={i}
-                                                src={item}
-                                                alt="avatar-add"
-                                            />
-                                        ))}
-                                    </div>
-                                    <div className="client-data">
-                                        <h6 className="counter-item d-flex align-items-center">
-                                            <Meter value={2} />
-                                            <em>k+ Clients</em>
-                                        </h6>
-                                        <span>Award winning agency</span>
-                                    </div>
-                                </motion.div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

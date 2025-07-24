@@ -8,6 +8,7 @@ import Testimonial from "@/components/pages/(home)/home-1/testimonial";
 import ClientArea from "@/components/common/client-area";
 import BlogArea from "@/components/common/blog-area";
 import Footer from "@/components/layout/footers/footer";
+import AboutArea from "@/components/common/about-area";
 
 export const metadata = {
     title: "Home",
@@ -19,16 +20,13 @@ const Home = () => {
             <Header />
             <Hero />
             <About
-                heading="Our digital strategies and design expertise
-                                    focus on promoting social economy
-                                    businesses, cutting-edge brands, and
-                                    eco-friendly products to motivate consumers
-                                    to make informed decisions towards
-                                    sustainable products and services"
-                paragraph="Whether it's crafting a visually stunning brand identity, designing immersive digital experiences, or developing strategic marketing campaigns, we approach each project with meticulous attention to detail and an unwavering dedication to quality."
+                heading="We’re not just keeping pace with telecom evolution — we’re driving it. Our fully customized, in-house solutions are designed to challenge legacy limits and set new industry standards."
+                paragraph="Backed by a culture of constant improvement and customer-centric excellence, we empower operators and enterprises with smarter, faster, and more agile telecom innovations."
             />
+            
             <OurAchievement />
-            <ProjectArea />
+            <AboutArea style="style-2"/>
+            {/* <ProjectArea /> */}
             <ServiceArea />
             <Testimonial />
             <ClientArea />

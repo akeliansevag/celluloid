@@ -27,9 +27,9 @@ const About = ({ heading, paragraph, variants }: Props) => {
                             <MoveAnim delay={0.5}>
                                 <div className="about-info row-margin-top">
                                     <p className="text_invert">{paragraph}</p>
-                                    <Hyperlink href="/about-us">
+                                    {/* <Hyperlink href="/about-us">
                                         More about us
-                                    </Hyperlink>
+                                    </Hyperlink> */}
                                 </div>
                             </MoveAnim>
                         </div>

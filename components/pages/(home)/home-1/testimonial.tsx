@@ -34,7 +34,7 @@ const Testimonial = () => {
                                 }}
                                 className="title"
                             >
-                                Client testimonials
+                                Bank Anywhere.  Grow Everywhere.
                             </motion.h3>
                         </div>
                     </div>
@@ -100,14 +100,14 @@ const Testimonial = () => {
                                 <SwiperSlide key={i}>
                                     <div className="testimonial-content">
                                         <p>{testimonial.content}</p>
-                                        <div className="author">
+                                        {/* <div className="author">
                                             <h5 className="author-title">
                                                 {testimonial.name}
                                             </h5>
                                             <span className="author-designation">
                                                 {testimonial.designation}
                                             </span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </SwiperSlide>
                             ))}

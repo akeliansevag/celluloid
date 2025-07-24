@@ -13,7 +13,7 @@ const AboutArea = ({ style }: Props) => {
     return (
         <>
             <section
-                className={`quanto-about-area2 section-padding-top ${
+                className={`quanto-about-area2 section-padding-top section-padding-bottom ${
                     style === "style-2" ? "bg-color-white" : "bg-color-2"
                 }`}
             >
@@ -23,8 +23,8 @@ const AboutArea = ({ style }: Props) => {
                             <div className="quanto__header text-center text-lg-start">
                                 <MoveAnim>
                                     <h3 className="title">
-                                        We believe in the power of design to
-                                        elevate businesses and product solutions
+                                        All Channels, Total Control.
+                                        Revolutionize Customer Engagement with a Fully Integrated Messaging Platform
                                     </h3>
                                 </MoveAnim>
                             </div>
@@ -55,7 +55,7 @@ const AboutArea = ({ style }: Props) => {
                                         height={0}
                                         width={0}
                                         sizes="100vw"
-                                        src="/images/about/about-thumb-2-1.png"
+                                        src="/images/about/about-thumb-1.webp"
                                         alt="about-thumb"
                                         className="w-100"
                                     />
@@ -66,28 +66,22 @@ const AboutArea = ({ style }: Props) => {
                             <div className="section-content">
                                 <MoveAnim>
                                     <p>
-                                        Our approach is all about understanding
-                                        your needs and bringing your ideas to
-                                        life without complexity. We thrive
-                                        turning imaginative concepts into user
-                                        friendly digital solutions. Whether
-                                        it&apos;s a sleek website, a
-                                        user-friendly app or a memorable brand
-                                        identity, we focus on creating designs
-                                        that not only.
+                                        Unify your communication like never before. Our Omni-Channel Messaging Suite integrates SMS, WhatsApp, Voice, RCS, Email, Instagram, Messenger, Viber, and Push into one streamlined API. 
                                     </p>
                                 </MoveAnim>
                                 <MoveAnim>
                                     <p>
-                                        Designing immersive digital experiences,
-                                        or developing strategic marketing
-                                        campaigns, we approach each project with
-                                        meticulous attention to detail.
+                                        Design intelligent customer journeys using an intuitive visual builder, track real-time performance across every channel, and count on smart failover that ensures message delivery — no matter what. 
                                     </p>
                                 </MoveAnim>
-                                <Hyperlink href="/about">
+                                <MoveAnim>
+                                    <p>
+                                        Built-in compliance ensures every interaction meets global standards from the start.
+                                    </p>
+                                </MoveAnim>
+                                {/* <Hyperlink href="/about">
                                     More about us
-                                </Hyperlink>
+                                </Hyperlink> */}
                                 <figure className="overflow-hidden w-100">
                                     <div className="overflow-hidden">
                                         <motion.div
@@ -111,7 +105,7 @@ const AboutArea = ({ style }: Props) => {
                                             <Image
                                                 height={350}
                                                 width={380}
-                                                src="/images/about/about-thumb-2-2.png"
+                                                src="/images/about/about-thumb-2.webp"
                                                 alt="about-thumb"
                                                 className="w-100"
                                                 style={{
@@ -147,7 +141,7 @@ const AboutArea = ({ style }: Props) => {
                                         height={0}
                                         width={0}
                                         sizes="100vw"
-                                        src="/images/about/about-thumb-2-3.png"
+                                        src="/images/about/about-thumb-3.webp"
                                         alt="about-thumb"
                                         className="w-100"
                                     />
@@ -157,7 +151,7 @@ const AboutArea = ({ style }: Props) => {
                     </div>
                 </div>
                 {/* marque area start */}
-                <MarqueeArea2 />
+                {/* <MarqueeArea2 /> */}
                 {/* marque area end */}
             </section>
         </>

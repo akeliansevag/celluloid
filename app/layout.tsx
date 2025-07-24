@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         default: "Celluloid",
         template: "%s | Celluloid",
     },
-    description: "Quanto - Creative Agency Template",
+    description: "Smarter Networks. Faster Innovation.",
 };
 
 export default function RootLayout({

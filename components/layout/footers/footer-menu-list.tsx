@@ -9,7 +9,7 @@ const FooterMenuList = ({ data }: Props) => {
         <>
             {data?.map((item, i) => (
                 <li key={i}>
-                    <Link href={item.href}>{item.label}</Link>
+                    <a href={item.href}>{item.label}</a>
                 </li>
             ))}
         </>

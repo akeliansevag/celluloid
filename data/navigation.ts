@@ -63,11 +63,11 @@ const navigation: NavigationType[] = [
     //         { label: "Blog Details", href: "/blog-details" },
     //     ],
     // },
-    { label: "Home", href: "/" },
-    { label: "Messaging", href: "/" },
-    { label: "Telecom", href: "/" },
-    { label: "MDBS", href: "/" },
-    { label: "Blogs", href: "/" },
+    { label: "Home", href: "#home" },
+    { label: "Messaging", href: "#messaging" },
+    { label: "Telecom", href: "#telecom" },
+    { label: "MDBS", href: "#mdbs" },
+    { label: "Blogs", href: "#blogs" },
 ];
 
 export default navigation;

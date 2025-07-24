@@ -59,21 +59,21 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                             <ul className="sub-menu">
                                 {item.dropdown.map((subItem) => (
                                     <li key={subItem.label}>
-                                        <Link
+                                        <a
                                             href={subItem.href || "#"}
                                             onClick={onClose}
                                         >
                                             {subItem.label}
-                                        </Link>
+                                        </a>
                                     </li>
                                 ))}
                             </ul>
                         </Collapse>
                     </>
                 ) : (
-                    <Link href={item.href || "#"} onClick={onClose}>
+                    <a href={item.href || "#"} onClick={onClose}>
                         {item.label}
-                    </Link>
+                    </a>
                 )}
             </li>
         );
@@ -89,7 +89,7 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                 <div className="quanto-menu-area text-center">
                     <div className="quanto-menu-mobile-top">
                         <div className="mobile-logo">
-                            <Link href="/" onClick={onClose}>
+                            <a href="/" onClick={onClose}>
                                 <Image
                                     src="/images/logo-1.svg"
                                     alt="logo"
@@ -97,7 +97,7 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                                     height={20}
                                     priority
                                 />
-                            </Link>
+                            </a>
                         </div>
                         <button
                             className="quanto-menu-toggle mobile"
@@ -110,7 +110,7 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                         <ul>{navigation.map(renderMenuItem)}</ul>
                     </div>
                     <div className="quanto-mobile-menu-btn">
-                        <div className="sidebar-wrap">
+                        {/* <div className="sidebar-wrap">
                             <h6>27 Division St, New York,</h6>
                             <h6>NY 10002, USA</h6>
                         </div>
@@ -125,11 +125,11 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                                     quanto.agency@mail.com
                                 </Link>
                             </h6>
-                        </div>
+                        </div> */}
                         <div className="social-btn style-3">
                             {/* social media start */}
                             {social.map((item, i) => (
-                                <Link key={i} href={item.href}>
+                                <a key={i} href={item.href}>
                                     <span className="link-effect">
                                         <span className="effect-1">
                                             <i className={item.iconClass} />
@@ -138,7 +138,7 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                                             <i className={item.iconClass} />
                                         </span>
                                     </span>
-                                </Link>
+                                </a>
                             ))}
                             {/* social media end */}
                         </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import Providers from "./providers";
+import ScrollHandler from "../components/ScrollHandler";
 
 const instrumentsans = Instrument_Sans({
     variable: "--instrument-sans",
@@ -24,6 +25,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${instrumentsans.variable}`}>
+                <ScrollHandler />
                 <Providers>{children}</Providers>
             </body>
         </html>

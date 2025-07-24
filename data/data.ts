@@ -599,16 +599,16 @@ export const social: SocialType[] = [
     { href: "https://x.com", iconClass: "fab fa-x-twitter" },
     { href: "https://instagram.com", iconClass: "fab fa-instagram" },
     { href: "https://linkedin.com", iconClass: "fab fa-linkedin" },
-    { href: "https://behance.net", iconClass: "fab fa-behance" },
-    { href: "https://dribbble.com", iconClass: "fab fa-dribbble" },
+    { href: "https://facebook.com", iconClass: "fab fa-facebook" },
+    { href: "https://youtube.com", iconClass: "fab fa-youtube" },
 ];
 
 export const agencyLinks: LinkType[] = [
-    { href: "/", label: "Home" },
-    { href: "/portfolio-masonry", label: "Messaging" },
-    { href: "/about", label: "Telecom" },
-    { href: "/service", label: "MDBS" },
-    { href: "/#", label: "Blogs" },
+    { href: "/#home", label: "Home" },
+    { href: "/#messaging", label: "Messaging" },
+    { href: "/#telecom", label: "Telecom" },
+    { href: "/#service", label: "MDBS" },
+    { href: "/#blogs", label: "Blogs" },
 ];
 
 export const servicesLinks: LinkType[] = [

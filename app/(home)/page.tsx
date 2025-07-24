@@ -17,7 +17,10 @@ export const metadata = {
 const Home = () => {
     return (
         <>
-            <Header />
+            <div id="home">
+                <Header />
+            </div>
+            
             <Hero />
             <About
                 heading="We’re not just keeping pace with telecom evolution — we’re driving it. Our fully customized, in-house solutions are designed to challenge legacy limits and set new industry standards."
@@ -25,12 +28,24 @@ const Home = () => {
             />
             
             <OurAchievement />
-            <AboutArea style="style-2"/>
+            <div id="messaging">
+                <AboutArea style="style-2"/>
+            </div>
+            
             {/* <ProjectArea /> */}
-            <ServiceArea />
-            <Testimonial />
+            <div id="telecom">
+                <ServiceArea />
+            </div>
+            
+            <div id="mdbs">
+                <Testimonial />
+            </div>
+            
             {/* <ClientArea /> */}
-            <BlogArea />
+            <div id="blogs">
+                <BlogArea />
+            </div>
+            
             <Footer />
         </>
     );

@@ -31,14 +31,14 @@ const Nav = () => {
                     {navigation?.map((item, i) =>
                         item.dropdown ? (
                             <li key={i} className="menu-item-has-children">
-                                <Link href="#">{item.label}</Link>
+                                <a href="#">{item.label}</a>
                                 {renderDropdown(item.dropdown)}
                             </li>
                         ) : (
                             <li key={i}>
-                                <Link href={item.href || "#"}>
+                                <a href={item.href || "#"}>
                                     {item.label}
-                                </Link>
+                                </a>
                             </li>
                         )
                     )}

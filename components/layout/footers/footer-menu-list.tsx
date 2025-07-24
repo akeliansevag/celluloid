@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 interface Props {
     data: Array<{ label: string; href: string }>;

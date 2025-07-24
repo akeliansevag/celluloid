@@ -1,5 +1,4 @@
 "use client";
-import Hyperlink from "@/components/ui/hyperlink";
 import { blogs } from "@/data/data";
 import BlogAreaCard from "./blog-area-card";
 import * as motion from "motion/react-client";

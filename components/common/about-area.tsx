@@ -1,6 +1,4 @@
 "use client";
-import MarqueeArea2 from "@/components/common/marquee-area-2";
-import Hyperlink from "@/components/ui/hyperlink";
 import Image from "next/image";
 import MoveAnim from "../framer/move-anim";
 import * as motion from "motion/react-client";

@@ -1,5 +1,4 @@
 import MoveAnim from "@/components/framer/move-anim";
-import Hyperlink from "@/components/ui/hyperlink";
 import { Service1Type } from "@/types/global";
 import Image from "next/image";
 

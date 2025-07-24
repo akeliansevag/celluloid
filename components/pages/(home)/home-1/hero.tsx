@@ -1,11 +1,8 @@
 "use client";
-import Image from "next/image";
-import Meter from "@/components/common/meter";
 import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import * as motion from "motion/react-client";
 import MoveAnim from "@/components/framer/move-anim";
 import WordAnim from "@/components/framer/word-anim";
 

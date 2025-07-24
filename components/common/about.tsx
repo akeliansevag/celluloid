@@ -1,5 +1,4 @@
 "use client";
-import Hyperlink from "@/components/ui/hyperlink";
 import MoveAnim from "../framer/move-anim";
 
 interface Props {

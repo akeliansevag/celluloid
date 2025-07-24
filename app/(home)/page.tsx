@@ -29,7 +29,7 @@ const Home = () => {
             {/* <ProjectArea /> */}
             <ServiceArea />
             <Testimonial />
-            <ClientArea />
+            {/* <ClientArea /> */}
             <BlogArea />
             <Footer />
         </>

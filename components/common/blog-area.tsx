@@ -35,15 +35,15 @@ const BlogArea = ({ style }: Props) => {
                                     }}
                                     className="title"
                                 >
-                                    Latest blog to boost your productivity
+                                    Latest Blogs
                                 </motion.h3>
                             </div>
                         </div>
                         <div className="col-12 col-lg-3 col-xl-5 col-xxl-6">
                             <div className="quanto__headerr d-flex justify-content-center justify-content-lg-end">
-                                <Hyperlink href="/blog-grid">
+                                {/* <Hyperlink href="/blog-grid">
                                     View all articles
-                                </Hyperlink>
+                                </Hyperlink> */}
                             </div>
                         </div>
                     </div>

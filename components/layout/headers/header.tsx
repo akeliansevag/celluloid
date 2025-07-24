@@ -29,7 +29,7 @@ const Header = () => {
                                             <Image
                                                 height={29}
                                                 width={177}
-                                                src="/images/logo-1.svg"
+                                                src="/images/logo-11.svg"
                                                 alt="logo"
                                                 priority
                                             />
@@ -61,7 +61,7 @@ const Header = () => {
                                 <div className="col-auto d-none d-lg-block">
                                     <Hyperlink
                                         variant="primary"
-                                        href="/contact"
+                                        href="#"
                                     >
                                         Get in touch
                                     </Hyperlink>

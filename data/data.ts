@@ -380,9 +380,9 @@ export const services5: Service5Type[] = [
 
 export const testimonials: TestimonialType[] = [
     {
-        image: "/images/testimonial/Testimonial-1.png",
+        image: "/images/testimonial/bank-anywhere.webp",
         content:
-            "Deliver full-scale digital banking straight to users’ smartphones — no branches needed. Our Mobile Banking Suite empowers wallets, peer-to-peer transfers, bill payments, international remittances, and micro-loans with built-in KYC, multi-currency support, and AI-powered credit scoring. Launch fast with our modular architecture and plug-and-play APIs — built to help you scale across emerging markets with zero physical footprint.",
+            "Deliver full-scale digital banking straight to users’ smartphones — no branches needed. <br /><br /> Our Mobile Banking Suite empowers wallets, peer-to-peer transfers, bill payments, international remittances, and micro-loans with built-in KYC, multi-currency support, and AI-powered credit scoring. <br /><br /> Launch fast with our modular architecture and plug-and-play APIs — built to help you scale across emerging markets with zero physical footprint.",
         name: "Jenny Bennett",
         designation: "Senior Marketing Manager at Caya",
     },
@@ -473,21 +473,21 @@ export const testimonials3: Testimonial1Type[] = [
 
 export const blogs: BlogType[] = [
     {
-        title: "Reveal business opportunities with our five-point brand audit",
-        date: "March 8, 2024",
-        imageUrl: "/images/blog/blog-thumb-1.png",
+        title: "Why Omnichannel Messaging Became a Strategic Imperative for International Businesses",
+        date: "Jul 16, 2025",
+        imageUrl: "/images/blog/blog-1.webp",
         url: "/blog-details",
     },
     {
-        title: "Quanto agency revolutionizes work with the power of AI-driven solutions",
-        date: "March 8, 2024",
-        imageUrl: "/images/blog/blog-thumb-2.png",
+        title: "CPaaS and AI Benefits",
+        date: "Sep 25, 2024",
+        imageUrl: "/images/blog/blog-2.webp",
         url: "/blog-details",
     },
     {
-        title: "How young leaders can take charge of their professional growth",
-        date: "March 8, 2024",
-        imageUrl: "/images/blog/blog-thumb-3.png",
+        title: "Revolutionizing Financial Management: The Impact of Business Wallets",
+        date: "Aug 08, 2024",
+        imageUrl: "/images/blog/blog-3.webp",
         url: "/blog-details",
     },
     {
@@ -605,11 +605,10 @@ export const social: SocialType[] = [
 
 export const agencyLinks: LinkType[] = [
     { href: "/", label: "Home" },
-    { href: "/portfolio-masonry", label: "Case Studies" },
-    { href: "/about", label: "About Us" },
-    { href: "/service", label: "Services" },
-    { href: "/#", label: "Testimonials" },
-    { href: "/contact", label: "Contact" },
+    { href: "/portfolio-masonry", label: "Messaging" },
+    { href: "/about", label: "Telecom" },
+    { href: "/service", label: "MDBS" },
+    { href: "/#", label: "Blogs" },
 ];
 
 export const servicesLinks: LinkType[] = [

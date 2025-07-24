@@ -86,7 +86,7 @@ export default function NotFound() {
                                     variant="primary"
                                     position="left"
                                 >
-                                    Get in touch
+                                    Back to Home
                                 </Hyperlink>
                             </div>
                         </div>

@@ -12,7 +12,7 @@ const BlogAreaCard = ({ data, varient }: Props) => {
         <>
             <div className={`quanto-blog-box ${varient}`}>
                 <div className="quanto-blog-thumb">
-                    <Link href={data.url}>
+                    {/* <Link href={data.url}>
                         <Image
                             height={0}
                             width={0}
@@ -20,7 +20,14 @@ const BlogAreaCard = ({ data, varient }: Props) => {
                             src={data.imageUrl}
                             alt="blog-thumb"
                         />
-                    </Link>
+                    </Link> */}
+                    <Image
+                        height={0}
+                        width={0}
+                        sizes="100vw"
+                        src={data.imageUrl}
+                        alt="blog-thumb"
+                    />
                 </div>
                 <div
                     className={`quanto-blog-content ${
@@ -28,7 +35,8 @@ const BlogAreaCard = ({ data, varient }: Props) => {
                     }`}
                 >
                     <h5 className="line-clamp-2">
-                        <Link href={data.url}>{data.title}</Link>
+                        {/* <Link href={data.url}>{data.title}</Link> */}
+                        {data.title}
                     </h5>
                     <span className="quanto-blog-date">{data.date}</span>
                 </div>

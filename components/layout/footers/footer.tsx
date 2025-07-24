@@ -36,25 +36,25 @@ const Footer = () => {
                                             Contact
                                         </h6>
                                         <p className="address">
-                                            740 New South Head Rd, Triple Bay
-                                            Swfw 3108, New York
+                                            54 Belford Rd, Edinburgh, City of Edinburgh, United Kingdom
+
                                         </p>
                                         <div className="contacts">
                                             <ul className="custom-ul">
                                                 <li>
                                                     <Link
                                                         className="email"
-                                                        href="mailto:hello@quanto.agency"
+                                                        href="mailto:info@celluloidco.com"
                                                     >
-                                                        hello@quanto.agency
+                                                        info@celluloidco.com
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <Link
                                                         className="mobile"
-                                                        href="tel:+18884567890"
+                                                        href="tel:01312257222"
                                                     >
-                                                        +1 888 456 7890
+                                                        0131 225 7222
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -77,9 +77,9 @@ const Footer = () => {
                                         }}
                                         className="footer-widgets"
                                     >
-                                        <h6 className="widget-title text-color-white">
+                                        {/* <h6 className="widget-title text-color-white">
                                             Agency
-                                        </h6>
+                                        </h6> */}
                                         <div className="widget-links">
                                             <ul className="custom-ul">
                                                 <FooterMenuList
@@ -105,7 +105,7 @@ const Footer = () => {
                                             once: true,
                                             amount: 0.2,
                                         }}
-                                        className="footer-widgets"
+                                        className="footer-widgets invisible"
                                     >
                                         <h6 className="widget-title text-color-white">
                                             Services
@@ -168,7 +168,7 @@ const Footer = () => {
                             <div className="col-12">
                                 <div className="footer__bottom-content row-padding-bottom">
                                     <div className="copyright-text text-color-white">
-                                        All rights reserved — 2025 © Qubohub
+                                        All rights reserved — 2025 © Celluloid
                                     </div>
                                     <Link
                                         href="#"

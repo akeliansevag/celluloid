@@ -32,7 +32,7 @@ const MarqueeArea2 = ({ ...props }) => {
                             >
                                 <div className="marquee-item">
                                     <h1>
-                                        Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . Invesprit . 
+                                        Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . Celluloid . 
                                     </h1>
                                 </div>
                             </Link>

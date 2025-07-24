@@ -55,7 +55,7 @@ const AboutArea = ({ style }: Props) => {
                                         height={0}
                                         width={0}
                                         sizes="100vw"
-                                        src="/images/about/about-thumb-1.webp"
+                                        src="/images/about/about-thumb-11.webp"
                                         alt="about-thumb"
                                         className="w-100"
                                     />
@@ -105,7 +105,7 @@ const AboutArea = ({ style }: Props) => {
                                             <Image
                                                 height={350}
                                                 width={380}
-                                                src="/images/about/about-thumb-2.webp"
+                                                src="/images/about/about-thumb-21.webp"
                                                 alt="about-thumb"
                                                 className="w-100"
                                                 style={{
@@ -141,7 +141,7 @@ const AboutArea = ({ style }: Props) => {
                                         height={0}
                                         width={0}
                                         sizes="100vw"
-                                        src="/images/about/about-thumb-3.webp"
+                                        src="/images/about/about-thumb-31.webp"
                                         alt="about-thumb"
                                         className="w-100"
                                     />

@@ -41,8 +41,10 @@ const Home = () => {
             <div id="blogs">
                 <BlogArea />
             </div>
+            <div id="get-in-touch">
+                <Footer />
+            </div>
             
-            <Footer />
         </>
     );
 };

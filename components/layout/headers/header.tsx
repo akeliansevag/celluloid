@@ -61,7 +61,7 @@ const Header = () => {
                                 <div className="col-auto d-none d-lg-block">
                                     <Hyperlink
                                         variant="primary"
-                                        href="#"
+                                        href="#get-in-touch"
                                     >
                                         Get in touch
                                     </Hyperlink>

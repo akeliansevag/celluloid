@@ -10,8 +10,8 @@ const instrumentsans = Instrument_Sans({
 
 export const metadata: Metadata = {
     title: {
-        default: "Quanto - Creative Agency Template",
-        template: "%s | Quanto - Creative Agency Template",
+        default: "Celluloid",
+        template: "%s | Celluloid",
     },
     description: "Quanto - Creative Agency Template",
 };

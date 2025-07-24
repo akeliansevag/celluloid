@@ -36,7 +36,7 @@ const Footer = () => {
                                             Contact
                                         </h6>
                                         <p className="address">
-                                            54 Belford Rd, Edinburgh, City of Edinburgh, United Kingdom
+                                            Al Falah St, Abu Dhabi, United Arab Emirates
 
                                         </p>
                                         <div className="contacts">
@@ -52,9 +52,9 @@ const Footer = () => {
                                                 <li>
                                                     <Link
                                                         className="mobile"
-                                                        href="tel:01312257222"
+                                                        href="tel:026427400"
                                                     >
-                                                        0131 225 7222
+                                                        02 642 7400
                                                     </Link>
                                                 </li>
                                             </ul>

@@ -99,7 +99,7 @@ const Testimonial = () => {
                             {testimonials.map((testimonial, i) => (
                                 <SwiperSlide key={i}>
                                     <div className="testimonial-content">
-                                        <p dangerouslySetInnerHTML={{ __html: testimonial.content }} />
+                                        <p dangerouslySetInnerHTML={{ __html: testimonial.content || "" }} />
                                         {/* <div className="author">
                                             <h5 className="author-title">
                                                 {testimonial.name}

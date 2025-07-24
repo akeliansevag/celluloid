@@ -3077,6 +3077,7 @@ a.quanto-default-btn.sm-size {
   .quanto-funfacts__wrapper .quanto-funfact-box {
     border: none;
     text-align: center;
+    padding-left: 0;
   }
 }
 .quanto-funfacts__wrapper .quanto-funfact-box h2 {

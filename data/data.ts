@@ -667,7 +667,7 @@ export const services: ServiceType[] = [
     {
         title: "Call Management",
         description:
-            "Enhance voice services with AI RBT ,IVR, campaign tools, and intelligent call routing for a richer mobile experience.",
+            "Enhance voice services with AI RBT, IVR, campaign tools, and intelligent call routing for a richer mobile experience.",
         icon: "/images/service/service-icon-3.svg",
         delay: "0.60",
     },

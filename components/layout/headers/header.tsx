@@ -26,12 +26,10 @@ const Header = () => {
                                 <div className="col-8 col-sm-auto">
                                     <div className="header-logo">
                                         <Link href="/">
-                                            <Image
-                                                height={29}
-                                                width={177}
-                                                src="/images/logo-11.svg"
+                                            <img
+                                                src="/images/logo-111.svg"
                                                 alt="logo"
-                                                priority
+                                                width="177"
                                             />
                                         </Link>
                                     </div>

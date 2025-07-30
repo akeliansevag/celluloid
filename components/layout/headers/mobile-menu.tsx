@@ -89,12 +89,10 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                     <div className="quanto-menu-mobile-top">
                         <div className="mobile-logo">
                             <a href="/" onClick={onClose}>
-                                <Image
-                                    src="/images/logo-1.svg"
+                                <img
+                                    src="/images/logo-111.svg"
                                     alt="logo"
-                                    width={120}
-                                    height={20}
-                                    priority
+                                    width="177"
                                 />
                             </a>
                         </div>
@@ -125,8 +123,7 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                                 </Link>
                             </h6>
                         </div> */}
-                        <div className="social-btn style-3">
-                            {/* social media start */}
+                        {/* <div className="social-btn style-3">
                             {social.map((item, i) => (
                                 <a key={i} href={item.href}>
                                     <span className="link-effect">
@@ -139,8 +136,7 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
                                     </span>
                                 </a>
                             ))}
-                            {/* social media end */}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

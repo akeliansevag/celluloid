@@ -121,7 +121,7 @@ const Footer = () => {
                                     {/* serives link end */}
 
                                     {/* social links start */}
-                                    <motion.div
+                                    {/* <motion.div
                                         initial={{ opacity: 0, y: 60 }}
                                         whileInView={{
                                             opacity: 1,
@@ -155,7 +155,7 @@ const Footer = () => {
                                                 ))}
                                             </ul>
                                         </div>
-                                    </motion.div>
+                                    </motion.div> */}
                                     {/* social links end */}
                                 </div>
                             </div>

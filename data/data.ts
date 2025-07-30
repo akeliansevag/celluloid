@@ -607,8 +607,8 @@ export const agencyLinks: LinkType[] = [
     { href: "/#home", label: "Home" },
     { href: "/#messaging", label: "Messaging" },
     { href: "/#telecom", label: "Telecom" },
-    { href: "/#service", label: "MDBS" },
-    { href: "/#blogs", label: "Blogs" },
+    { href: "/#service", label: "Mobile Baking Suite" },
+    // { href: "/#blogs", label: "Blogs" },
 ];
 
 export const servicesLinks: LinkType[] = [

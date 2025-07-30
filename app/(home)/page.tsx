@@ -38,9 +38,9 @@ const Home = () => {
                 <Testimonial />
             </div>
             
-            <div id="blogs">
+            {/* <div id="blogs">
                 <BlogArea />
-            </div>
+            </div> */}
             <div id="get-in-touch">
                 <Footer />
             </div>

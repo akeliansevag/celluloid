@@ -66,8 +66,8 @@ const navigation: NavigationType[] = [
     { label: "Home", href: "#home" },
     { label: "Messaging", href: "#messaging" },
     { label: "Telecom", href: "#telecom" },
-    { label: "MDBS", href: "#mdbs" },
-    { label: "Blogs", href: "#blogs" },
+    { label: "Mobile Baking Suite", href: "#mdbs" },
+    // { label: "Blogs", href: "#blogs" },
 ];
 
 export default navigation;

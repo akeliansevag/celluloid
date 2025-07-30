@@ -2119,6 +2119,10 @@ a.quanto-default-btn.sm-size {
   transform-style: preserve-3d;
 }
 
+.special-title {
+  max-width: 100% !important;
+}
+
 /*================================================
 03. Hero css
 =================================================*/

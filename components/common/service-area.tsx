@@ -19,7 +19,7 @@ const ServiceArea = ({ title }: Props) => {
                     <div className="col-12 col-xl-6 col-xxl-5">
                         <div className="quanto__header text-center text-lg-start">
                             <MoveAnim>
-                                <h3 className="title">{title}</h3>
+                                <h3 className="title special-title">{title}</h3>
                             </MoveAnim>
                         </div>
                     </div>

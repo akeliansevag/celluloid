@@ -651,7 +651,7 @@ export const footerSocial: LinkType[] = [
 
 export const services: ServiceType[] = [
     {
-        title: "Messaging & Notifications",
+        title: "Messaging",
         description:
             "Celluloid enables large-scale user engagement with A2P and bulk SMS, powered by smart routing and seamless CRM integration",
         icon: "/images/service/service-icon-1.svg",

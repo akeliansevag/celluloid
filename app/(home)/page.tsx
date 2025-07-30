@@ -43,7 +43,7 @@ const Home = () => {
                 <BlogArea />
             </div> */}
             <div id="products-and-services">
-                <ServiceAreaTwo title="End-to-End Solutions to Power the Future of Connectivity"/>
+                <ServiceAreaTwo title="Where Innovation Meets Every Interaction"/>
             </div>
             <div id="get-in-touch">
                 <Footer />

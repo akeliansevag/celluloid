@@ -604,10 +604,11 @@ export const social: SocialType[] = [
 ];
 
 export const agencyLinks: LinkType[] = [
-    { href: "/#home", label: "Home" },
-    { href: "/#messaging", label: "Messaging" },
-    { href: "/#telecom", label: "Telecom" },
-    { href: "/#service", label: "Mobile Baking Suite" },
+    { href: "#home", label: "Home" },
+    { href: "#messaging", label: "Messaging" },
+    { href: "#telecom", label: "Telecom" },
+    { href: "#service", label: "Mobile Banking Suite" },
+    { href: "#products-and-services", label: "Products & Services" },
     // { href: "/#blogs", label: "Blogs" },
 ];
 

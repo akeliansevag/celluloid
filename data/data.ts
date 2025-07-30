@@ -650,30 +650,30 @@ export const footerSocial: LinkType[] = [
 
 export const services: ServiceType[] = [
     {
-        title: "Advanced Digital Solution",
+        title: "Messaging & Notifications",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
+            "Celluloid enables large-scale user engagement with A2P and bulk SMS, powered by smart routing and seamless CRM integration",
         icon: "/images/service/service-icon-1.svg",
         delay: "0.30",
     },
     {
-        title: "UI/UX & Product Innovation",
+        title: "Roaming",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
+            "Our cloud-based roaming suite boosts inbound traffic and revenue with virtual numbers and dual-number capabilities.",
         icon: "/images/service/service-icon-2.svg",
         delay: "0.45",
     },
     {
-        title: "Market Analysis & Planning",
+        title: "Call Management",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
+            "Enhance voice services with IVR, campaign tools, and intelligent call routing for a richer mobile experience.",
         icon: "/images/service/service-icon-3.svg",
         delay: "0.60",
     },
     {
-        title: "Business Campaign Strategy",
+        title: "Digital Services",
         description:
-            "Brand identity design a the have to success whether you breath onfire quanto agency.",
+            "Automate, monitor, and scale with solutions for alerts, VAS testing, and partner management across telecom systems.",
         icon: "/images/service/service-icon-4.svg",
         delay: "0.75",
     },

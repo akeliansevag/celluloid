@@ -4,9 +4,10 @@ import Hero from "@/components/pages/(home)/home-1/hero";
 import OurAchievement from "@/components/common/our-achievement";
 import ServiceArea from "@/components/pages/(home)/home-1/service-area";
 import Testimonial from "@/components/pages/(home)/home-1/testimonial";
-import BlogArea from "@/components/common/blog-area";
 import Footer from "@/components/layout/footers/footer";
 import AboutArea from "@/components/common/about-area";
+import ServiceAreaTwo from "@/components/common/service-area";
+
 
 export const metadata = {
     title: "Home",
@@ -41,6 +42,9 @@ const Home = () => {
             {/* <div id="blogs">
                 <BlogArea />
             </div> */}
+            <div id="products-and-services">
+                <ServiceAreaTwo title="End-to-End Solutions to Power the Future of Connectivity"/>
+            </div>
             <div id="get-in-touch">
                 <Footer />
             </div>

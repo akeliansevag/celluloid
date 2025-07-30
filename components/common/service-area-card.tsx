@@ -22,7 +22,7 @@ const ServiceAreaCard = ({ data }: Props) => {
                     <h5>{data.title}</h5>
                     <p>{data.description}</p>
                 </div>
-                <Hyperlink href="/service-details">View details</Hyperlink>
+                {/* <Hyperlink href="/service-details">View details</Hyperlink> */}
             </div>
         </div>
     );

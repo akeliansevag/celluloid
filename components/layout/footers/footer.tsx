@@ -52,9 +52,9 @@ const Footer = () => {
                                                 <li>
                                                     <Link
                                                         className="mobile"
-                                                        href="tel:026427400"
+                                                        href="tel:971562632872"
                                                     >
-                                                        02 642 7400
+                                                        +971 56 263 2872
                                                     </Link>
                                                 </li>
                                             </ul>

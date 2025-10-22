@@ -678,6 +678,20 @@ export const services: ServiceType[] = [
         icon: "/images/service/service-icon-4.svg",
         delay: "0.75",
     },
+    {
+        title: "eSIM RSP",
+        description:
+            "An instant eSIM activation platform empowering MNOs to let customers easily install their eSIM profiles through a simple web or app-based experience.",
+        icon: "/images/service/service-icon-1.svg",
+        delay: "0.90",
+    },
+    {
+        title: "Travel eSIM",
+        description:
+            "Celluloid Travel eSIM, provides travelers with a seamless and affordable way to stay connected globally through our innovative eSIM technology.",
+        icon: "/images/service/service-icon-2.svg",
+        delay: "1.05",
+    },
 ];
 
 export const services3: Service3Type[] = [

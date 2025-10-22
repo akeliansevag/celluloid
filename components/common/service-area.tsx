@@ -26,7 +26,7 @@ const ServiceArea = ({ title }: Props) => {
                     <div className="col-12 col-xl-6 col-xxl-6">
                         <div className="row g-114 quanto-service2__row">
                             {/* service area card start */}
-                            {services.slice(0, 4).map((item, i) => (
+                            {services.slice(0, 6).map((item, i) => (
                                 <motion.div
                                     key={i}
                                     initial={{ opacity: 0, x: 100 }}
